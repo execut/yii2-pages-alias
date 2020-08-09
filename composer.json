@@ -1,6 +1,6 @@
 {
   "name": "execut/yii2-pages-alias",
-  "description": "Integration module for yii2-pages and yii2-alias",
+  "description": "Integration module for yii2-pages and yii2-alias modules",
   "keywords": ["yii2-pages and yii2-alias integration", "yii2-alias", "yii2-pages"],
   "homepage": "https://github.com/execut/yii2-pages-alias",
   "type": "yii2-extension",
