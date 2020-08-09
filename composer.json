@@ -1,14 +1,14 @@
 {
-  "name": "execut/yii2-module-template",
-  "description": "A template for module based on eXeCUT Yii2 CRUD",
-  "keywords": ["yii2 crud", "yii2 module template"],
-  "homepage": "https://github.com/execut/yii2-module-template",
+  "name": "execut/yii2-pages-alias",
+  "description": "Integration module for yii2-pages and yii2-alias ",
+  "keywords": ["yii2-pages and yii2-alias integration", "yii2-alias", "yii2-pages"],
+  "homepage": "https://github.com/execut/yii2-pages-alias",
   "type": "yii2-extension",
   "license": "Apache-2.0",
   "support": {
-    "issues": "https://github.com/execut/yii2-module-template/issues?state=open",
-    "wiki": "https://github.com/execut/yii2-module-template/wiki",
-    "source": "https://github.com/execut/yii2-module-template"
+    "issues": "https://github.com/execut/yii2-pages-alias/issues?state=open",
+    "wiki": "https://github.com/execut/yii2-pages-alias/wiki",
+    "source": "https://github.com/execut/yii2-pages-alias"
   },
   "authors": [
     {
@@ -18,7 +18,9 @@
   "minimum-stability": "stable",
   "require": {
     "php": "^7.4",
-    "yiisoft/yii2": "@dev"
+    "yiisoft/yii2": "@dev",
+    "execut/yii2-pages":  "@dev",
+    "execut/yii2-alias": "@dev"
   },
   "require-dev": {
     "codeception/codeception": "^4.0",
