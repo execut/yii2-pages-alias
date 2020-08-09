@@ -34,5 +34,16 @@
     "psr-4": {
       "execut\\pagesAlias\\": "src"
     }
-  }
+  },
+  "config": {
+    "fxp-asset": {
+      "enabled": false
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
 }
