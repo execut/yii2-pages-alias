@@ -5,6 +5,7 @@ namespace execut\pagesAlias\pages;
 
 
 use execut\pages\crudFields\pageAddress\Adapter;
+use execut\pages\models\Page;
 
 class AddressAdapter implements Adapter
 {
@@ -34,5 +35,9 @@ class AddressAdapter implements Adapter
         return [
             'alias'
         ];
+    }
+
+    public function initPageFields(Page $page)
+    {
     }
 }
